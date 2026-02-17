@@ -60,7 +60,7 @@ export default function Navbar() {
                     ))}
 
                     <a
-                        href="/resume.pdf"
+                        href="/Resume.pdf"
                         className="px-4 py-2 text-sm border border-[var(--color-neon-blue)] text-[var(--color-neon-blue)] rounded hover:bg-[var(--color-neon-blue)]/10 transition-colors"
                     >
                         Resume
