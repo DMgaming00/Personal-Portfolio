@@ -5,7 +5,6 @@ A futuristic, high-performance personal portfolio website built with **Next.js 1
 🔗 [**Live Demo:**](https://dev-mulchandani.vercel.app/)
 
 ![Portfolio Preview](public/Preview.png)
-*(Note: Add a `preview.png` to your `public` folder for a thumbnail!)*
 
 ## ✨ Features
 
