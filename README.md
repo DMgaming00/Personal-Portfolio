@@ -1,10 +1,10 @@
-# Antigravity Portfolio 🚀
+# Personal Portfolio 🚀
 
 A futuristic, high-performance personal portfolio website built with **Next.js 15 (App Router)**, designed to showcase projects, skills, and experience with a premium, AI-themed aesthetic.
 
-🔗 **Live Demo:** [https://dev-mulchandani.vercel.app/]
+🔗 [**Live Demo:**](https://dev-mulchandani.vercel.app/)
 
-![Portfolio Preview](public/preview.png)
+![Portfolio Preview](public/Preview.png)
 *(Note: Add a `preview.png` to your `public` folder for a thumbnail!)*
 
 ## ✨ Features
