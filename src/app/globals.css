@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --color-neon-blue: #00f3ff;
+  --color-neon-cyan: #00ccff;
+  --color-neon-purple: #bc13fe;
+  --color-deep-black: #050505;
+  --color-glass: rgba(255, 255, 255, 0.05);
+
+  --animate-glow: glow 2s ease-in-out infinite alternate;
+  --animate-float: float 3s ease-in-out infinite;
+  --animate-pulse-slow: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+
+  @keyframes glow {
+    from {
+      box-shadow: 0 0 5px #00f3ff, 0 0 10px #00ccff;
+    }
+
+    to {
+      box-shadow: 0 0 20px #00f3ff, 0 0 30px #bc13fe;
+    }
+  }
+
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+
+    50% {
+      transform: translateY(-10px);
+    }
+
+    100% {
+      transform: translateY(0px);
+    }
+  }
+}
+
+:root {
+  --background: #050505;
+  --foreground: #ededed;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+::selection {
+  background: #00f3ff;
+  color: #000;
+}
